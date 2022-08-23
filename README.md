@@ -91,7 +91,7 @@ _____________________________________
 5. Needless Repetition.
 6. Opacity. The code is hard to understand.
 
-## Commit Convention
+# Commit Convention
 The commit contains the following structural elements, to communicate intent to the consumers of your library:
 
 1. fix: a commit of the type fix patches a bug in your codebase ***(this correlates with PATCH in Semantic Versioning)***.
