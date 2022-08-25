@@ -1,8 +1,8 @@
 # Code Convention
 
 Code is clean if it can be understood easily – by everyone on the team. Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability.
-
-[Clean Code](https://articulo.mercadolibre.cl/MLC-530498327-codigo-limpio-clean-code-manual-de-estilo-para-el-de-_JM?matt_tool=18461308&matt_word=&matt_source=google&matt_campaign_id=14571108129&matt_ad_group_id=127312331935&matt_match_type=&matt_network=g&matt_device=c&matt_creative=544390938376&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=477912488&matt_product_id=MLC530498327&matt_product_partition_id=1413190260146&matt_target_id=aud-1660317627279:pla-1413190260146&gclid=Cj0KCQjw0oyYBhDGARIsAMZEuMvOmxUmtE_HJTpi-29JP_lr4IGNZN5H_hxkvASrQDF8HcwyZ7viXosaAke5EALw_wcB)
+[Clean Code Lesson](https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
+[Clean Code Book](https://articulo.mercadolibre.cl/MLC-530498327-codigo-limpio-clean-code-manual-de-estilo-para-el-de-_JM?matt_tool=18461308&matt_word=&matt_source=google&matt_campaign_id=14571108129&matt_ad_group_id=127312331935&matt_match_type=&matt_network=g&matt_device=c&matt_creative=544390938376&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=477912488&matt_product_id=MLC530498327&matt_product_partition_id=1413190260146&matt_target_id=aud-1660317627279:pla-1413190260146&gclid=Cj0KCQjw0oyYBhDGARIsAMZEuMvOmxUmtE_HJTpi-29JP_lr4IGNZN5H_hxkvASrQDF8HcwyZ7viXosaAke5EALw_wcB)
 _____________________________________
 
 ## General rules
@@ -121,9 +121,11 @@ Commit message with scope and ! to draw attention to breaking change
 feat(api)!: send an email to the customer when a product is shipped
 ```
 
-3. BREAKING CHANGE: a commit that has a footer BREAKING CHANGE:, or appends a ! after the type/scope, introduces a breaking API change ***(correlating with MAJOR in Semantic Versioning)***. A BREAKING CHANGE can be part of commits of any type.
-types other than fix: and feat: are allowed, for example @commitlint/config-conventional (based on the the Angular convention) recommends build:, chore:, ci:, docs:, style:, refactor:, perf:, test:, and others.
-footers other than BREAKING CHANGE: <description> may be provided and follow a convention similar to git trailer format.
+3. BREAKING CHANGE: a commit that has a footer BREAKING CHANGE:, or appends a ! after the type/scope, introduces a breaking API change ***(correlating with MAJOR in Semantic Versioning)***. 
+
+A BREAKING CHANGE can be part of commits of any type.
+types other than fix: and feat: are allowed, for example @commitlint/config-conventional (based on the the Angular convention) recommends build:, chore:, ci:, docs:, style:, refactor:, perf:, test:, and others. footers other than BREAKING CHANGE: <description> may be provided and follow a convention similar to git trailer format.
+
 Additional types are not mandated by the Conventional Commits specification, and have no implicit effect in Semantic Versioning (unless they include a BREAKING CHANGE). A scope may be provided to a commit’s type, to provide additional contextual information and is contained within parenthesis, e.g., feat(parser): add ability to parse arrays.
 
 ## References
