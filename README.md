@@ -1,6 +1,7 @@
 # Code Convention
 
 Code is clean if it can be understood easily – by everyone on the team. Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability.
+
 [Clean Code Lesson](https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 
 [Clean Code Book](https://articulo.mercadolibre.cl/MLC-530498327-codigo-limpio-clean-code-manual-de-estilo-para-el-de-_JM?matt_tool=18461308&matt_word=&matt_source=google&matt_campaign_id=14571108129&matt_ad_group_id=127312331935&matt_match_type=&matt_network=g&matt_device=c&matt_creative=544390938376&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=477912488&matt_product_id=MLC530498327&matt_product_partition_id=1413190260146&matt_target_id=aud-1660317627279:pla-1413190260146&gclid=Cj0KCQjw0oyYBhDGARIsAMZEuMvOmxUmtE_HJTpi-29JP_lr4IGNZN5H_hxkvASrQDF8HcwyZ7viXosaAke5EALw_wcB)
